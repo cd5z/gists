@@ -1,0 +1,3 @@
+Xcode8 无用log
+Edit Scheme-> Run -> Arguments, Environment Variables
+OS_ACTIVITY_MODE ＝ Disable 
