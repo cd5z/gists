@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
 
-@interface CD : UIImage
+@interface UIImage (CD)
 
 @end
