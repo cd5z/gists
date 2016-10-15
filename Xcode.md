@@ -14,3 +14,9 @@ OS_ACTIVITY_MODE ＝ Disable
     <true/>
 </dict>
 ```
+
+# 查看项目代码行数
+
+```
+find . -name "*.m" -or -name "*.h" -or -name "*.xib" -or -name "*.c" -or -name "*.storyboard"|xargs grep -v "^$"|wc -l
+```
