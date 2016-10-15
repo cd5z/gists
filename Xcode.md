@@ -4,3 +4,13 @@
 Edit Scheme-> Run -> Arguments, Environment Variables
 OS_ACTIVITY_MODE ＝ Disable 
 ```
+
+# Xcode Http
+
+```
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+</dict>
+```
