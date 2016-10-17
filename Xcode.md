@@ -20,3 +20,10 @@ OS_ACTIVITY_MODE ＝ Disable
 ```
 find . -name "*.m" -or -name "*.h" -or -name "*.xib" -or -name "*.c" -or -name "*.storyboard"|xargs grep -v "^$"|wc -l
 ```
+
+# Xcode 多个模拟器解决方法
+
+```
+sudo killall -9 com.apple.CoreSimulator.CoreSimulatorService
+rm -rf ~/Library/Developer/CoreSimulator/Devices
+```
